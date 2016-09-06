@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "jsx": "preserve",
+    "removeComments": false,
+    "target": "es6",
+    "module": "amd",
+    "outFile": "./bin/es6/main.js",
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "listFiles": false,
+    "noImplicitReturns": false,
+    "pretty": false,
+    "newLine": "lf",
+    "sourceMap": true,
+    "inlineSources": true
+  },
+  "files": [
+    "./src/main.ts"
+  ],
+  "compileOnSave": false
+}

@@ -1,0 +1,23 @@
+{
+  "name": "blank-file-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test-map.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run tsc && npm run babel",
+    "tsc": "mkdirp bin/es6 && tsc",
+    "babel": "mkdirp bin/js && node babel-with-source-maps -i bin/es6/main.js -m bin/es6/main.js.map -o bin/js/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.14.0",
+    "concat-with-sourcemaps": "^1.0.4",
+    "mkdirp": "^0.5.1",
+    "source-map": "^0.5.6",
+    "typescript": "^1.8.10"
+  }
+}
